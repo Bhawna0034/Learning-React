@@ -6,6 +6,7 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  let name = "Bhawna";
   return (
     <>
       {/* <div>
@@ -28,7 +29,8 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p> */}
-      <h1>Hello, World!</h1>
+    
+      <h1>Hi, I'm {name}</h1>
     </>
   )
 }
